@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.12.3-alpine
 
 ENV PORT="8000" \
     # Keeps Python from generating .pyc files in the container
